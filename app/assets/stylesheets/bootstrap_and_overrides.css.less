@@ -30,3 +30,99 @@
 //
 // Example:
 // @linkColor: #ff0000;
+
+// header
+body {
+  height: auto;
+  background-color: #1f6b80;
+  .black-row {
+    height: 10px;
+    background-color: #08313b;
+  }
+}
+
+header {
+  height: 111px;
+
+  .img_logo {
+    margin-top: 35px;
+    padding-left: 51px;
+  }
+
+  .login {
+    margin-top: 35px;
+    padding-left: 340px;
+    cursor: pointer;
+  }
+
+
+}
+
+// content
+
+.container {
+  .top-content {
+    background-color: #f1f1f1;
+    .border-radius(5px);
+    width: 960px;
+    height: 480px;
+
+    .video {
+      img.youtube {
+        margin-left: 50px;
+        margin-top: 80px;
+      }
+    }
+
+
+    .video-content {
+      margin-left: 45px;
+
+      .video-title {
+        margin-top: 80px;
+        font-family: @sansFontFamily;
+        text-transform: uppercase;
+        color: #1f6b80;
+
+        .thin-title {
+          font-weight: normal;
+          font-size: 34px;
+        }
+
+        .thick-title {
+          font-size: 34px;
+        }
+      }
+    }
+
+    .button-content {
+      margin-top: 137px;
+      cursor: pointer;
+    }
+  }
+}
+
+
+
+// footer
+footer {
+    margin-top: 300px;
+    // position: fixed;
+    background-color: #548d9c;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    color: #204c58;
+    text-align: center;
+    height: 82px;
+    .border-top-radius(5px);
+    font-weight: normal;
+
+  .row {
+    &.bg-footer {
+      margin-top: 39px;
+
+    }
+
+  }
+
+}
